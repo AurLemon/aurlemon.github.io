@@ -1,5 +1,24 @@
 <script setup lang="ts">
-const configData = config;
+  const configData = [
+      {
+          name: 'hydcraft-startpage',
+          time: '2024-07-28',
+          desc: 'A simply startpage of HydCraft, based on Vue.',
+          link: 'https://github.com/AurLemon/hydcraft-startpage'
+      },
+      {
+          name: 'hydcwiki-list-render',
+          time: '2024-08-24',
+          desc: '一个给 HydCraft Wiki 用的列表渲染，只写了一点喵。',
+          link: 'https://github.com/AurLemon/hydcwiki-list-render'
+      },
+      {
+          name: 'wikijs-citizen-styles',
+          time: '2024-08-06',
+          desc: 'A simply startpage of HydCraft, based on Vue.',
+          link: 'https://github.com/AurLemon/wikijs-citizen-styles'
+      }
+  ];
 </script>
 
 <template>
@@ -121,12 +140,12 @@ const configData = config;
     .github-io-link {
       background: var(--color-text--weaken);
       border-radius: 16px;
-      padding: 3px 12px;
       transition: background 250ms ease;
 
       a {
         color: var(--color-surface-0);
         font-size: 12px;
+        padding: 3px 12px;
         transition: color 250ms ease;
       }
 
